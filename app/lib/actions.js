@@ -1,6 +1,8 @@
 "use server";
 
 import { signIn, signUp } from "@/auth";
+import NeonAdapter from "@auth/neon-adapter"
+import { Pool } from "@neondatabase/serverless"
 
 export async function authenticate(prevState, formData) {
     console.log(formData);
