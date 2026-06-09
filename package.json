@@ -9,8 +9,8 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "next-auth@beta",
-    "@auth/neon-adapter",
+    "next-auth@beta": "latest",
+    "@auth/neon-adapter": "latest",
     "@fortawesome/fontawesome-svg-core": "^6.7.1",
     "@fortawesome/free-solid-svg-icons": "^6.7.1",
     "@fortawesome/react-fontawesome": "^0.2.2",
